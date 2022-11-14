@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPreferencesScreen">
+
+    <EditText
+        android:id="@+id/et_ACSP_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/et_ACSP_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_ACSP_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:text="Store"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bt_ACSP_retrieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:text="Retrieve"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bt_ACSP_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>
